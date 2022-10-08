@@ -1,0 +1,11 @@
+{
+  "name": "wfp-do-bug",
+  "module": "worker.js",
+  "version": "0.0.0",
+  "description": "Repro of potential DO workers for platforms bug",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "wrangler": "^2.0.27"
+  }
+}

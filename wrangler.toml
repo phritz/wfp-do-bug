@@ -1,0 +1,17 @@
+name = "wfp-do-bug"
+account_id = "<REPLACE ME>"
+main = "worker.js"
+compatibility_date = "2022-07-18"
+
+[durable_objects]
+bindings = [
+	{name = "DO", class_name = "DO"},
+]
+
+[[migrations]]
+tag = "v1" # Should be unique for each entry
+new_classes = ["DO"]
+
+[[dispatch_namespaces]]
+binding = "dispatcher"
+namespace = "wfp-do-bug"
