@@ -1,4 +1,4 @@
-This repo contains a ~minimal reproduction of what seems to me like a bug: worker for platform workers can be dispatched to from a regular worker but not from a DO. 
+This repo contains a ~minimal reproduction of what seems to me like a bug: workers for platform workers can be dispatched to from a regular worker but not from a DO. 
 
 1. upload the wfp worker
    1. `wrangler dispatch-namespace create wfp-do-bug`
